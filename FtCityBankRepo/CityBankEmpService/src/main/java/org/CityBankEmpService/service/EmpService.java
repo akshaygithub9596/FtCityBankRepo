@@ -15,10 +15,10 @@ public class EmpService {
 		PreparedStatement stmt = null;
 		ResultSet ressultset = null;
 
-		System.out.println("EmpService.empService()");
+		// System.out.println("EmpService.empService()");
 
 		try {
-			System.out.println("EmpService.empService(try)");
+			// System.out.println("EmpService.empService(try)");
 			// Register the Class
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			// System.out.println("class loaded");
@@ -98,11 +98,11 @@ public class EmpService {
 	}
 
 	public static void main(String[] args) throws Exception {
-		System.out.println("EmpService.main()");
+		// System.out.println("EmpService.main()");
 		System.out.println("EMP details from Employees table Of HR ");
 		Scanner sc = null;
 		try {
-			System.out.println("EmpService.main(try)");
+			// System.out.println("EmpService.main(try)");
 			sc = new Scanner(System.in);
 			System.out.println("Enter a valid emp_id (100-206) : ");
 			int empid = sc.nextInt();
