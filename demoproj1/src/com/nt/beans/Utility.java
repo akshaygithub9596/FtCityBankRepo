@@ -13,7 +13,11 @@ public class Utility {
 		System.out.println("Utility.m1()");
 		System.out.println("Utility.m1()");
 	}
-	
+
+	public void m4() {
+		System.out.println("Utility.m4()");
+
+	}
 
 	public static void main(String[] args) {
 		Utility util = new Utility();
