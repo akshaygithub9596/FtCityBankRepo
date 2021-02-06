@@ -9,7 +9,7 @@ public class Utility {
 	}
 
 	public void m1() {
-		System.out.println("Utility.m1()");
+		System.out.println("Utility.m1():12345");
 	}
 	public static void main(String[] args) {
 		Utility util = new Utility();
