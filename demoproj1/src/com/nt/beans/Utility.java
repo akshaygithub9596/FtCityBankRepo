@@ -8,6 +8,9 @@ public class Utility {
 		return new Date();
 	}
 
+	public void m1() {
+		System.out.println("Utility.m1()");
+	}
 	public static void main(String[] args) {
 		Utility util = new Utility();
 		
