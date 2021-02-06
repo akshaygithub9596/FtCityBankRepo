@@ -12,4 +12,12 @@
 		<module>CityBankEmpService</module>
 		<module>CityBankEmpView</module>
 	</modules>
+	<dependencies>
+
+		<dependency>
+			<groupId>fusionOjdbcjar</groupId>
+			<artifactId>ojdbcjar</artifactId>
+			<version>11.2.0.4</version>
+		</dependency>
+	</dependencies>
 </project>
